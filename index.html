@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maru Inu</title>
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="Alldata/img/favicon.svg" type="image/x-icon">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="Alldata/css/bootstrap.min.css">
+ 
+     <!-- aos CSS -->
+     <!-- <link rel="stylesheet" href="Alldata/css/aos.css"> -->
+        <link rel="stylesheet" href="index.css">
+     <!-- Main css -->
+     <link rel="stylesheet" href="Alldata/scss/style.css">
+
+     <link rel="stylesheet" href="scss/_faq.scss">
+
+</head>
+<body>
+<header class="header-area" id="header">
+    <nav id="navbar_top" class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar">
+        <div class="container">
+                <a class="navbar-brand navbar-logo" href="#">
+                    <img src="Alldata/img/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav main-menu m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#banner">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tokenomic">Tokenomic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#roadmap">Roadmap</a>
+                    </li>
+                </ul>
+                <div class="header-right d-lg-none">
+                    <ul class="social-links">
+						
+                        <li><a href="https://x.com/RealMaruInu?t=Y9bwonJt2CbpPql8mDU08g&s=09" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5859 21.375L14.0885 10.4471L14.1013 10.4574L20.8613 2.625H18.6023L13.0954 9L8.72227 2.625H2.79766L9.79723 12.8276L9.79638 12.8267L2.41406 21.375H4.67309L10.7955 14.2824L15.6613 21.375H21.5859ZM7.82719 4.32954L18.3466 19.6705H16.5564L6.02852 4.32954H7.82719Z" fill="#0E0E0D"/>
+                            </svg>
+                        </a></li>
+                      
+                        <li><a href="https://t.me/maruinu" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_254_427)">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7767 4.42997C20.0238 4.32596 20.2943 4.29008 20.5599 4.32608C20.8256 4.36208 21.0768 4.46863 21.2873 4.63465C21.4979 4.80067 21.6601 5.02008 21.757 5.27005C21.854 5.52002 21.8822 5.79141 21.8387 6.05597L19.5707 19.813C19.3507 21.14 17.8947 21.901 16.6777 21.24C15.6597 20.687 14.1477 19.835 12.7877 18.946C12.1077 18.501 10.0247 17.076 10.2807 16.062C10.5007 15.195 14.0007 11.937 16.0007 9.99997C16.7857 9.23897 16.4277 8.79997 15.5007 9.49997C13.1987 11.238 9.50265 13.881 8.28065 14.625C7.20265 15.281 6.64065 15.393 5.96865 15.281C4.74265 15.077 3.60565 14.761 2.67765 14.376C1.42365 13.856 1.48465 12.132 2.67665 11.63L19.7767 4.42997Z" fill="#0E0E0D"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_254_427">
+                                    <rect width="24" height="24" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+						<!-- <li style="margin-top: -50px;"><a id="account" style="width: 200px; " >
+                            Connect Wallet
+                        </a></li> -->
+                      </ul>
+                </div>
+				<a id="account" class="topconnectwallet" style="width: 200px; color: black; cursor: pointer;" >
+					Connect Wallet
+				</a>
+				<!-- <a class="nav-link text-white" id="showCardButton" style="font-size: 18px; margin: 0 10px;">
+					<button class="montserrat-reg" type="button" id="account"
+						style="background: #FCAD2D; padding: 8px 34px; border-radius: 12px;">
+						Connect Wallet
+					</button>
+				</a> -->
+                </div>
+				
+                <div class="header-right d-none d-lg-block">
+                    <ul class="social-links d-none d-md-block">
+
+						<!-- <li><a  id="showCardButton" style="font-size: 18px; margin: 0 10px;">
+							<button class="montserrat-reg" type="button" id="account">
+								Connect Wallet
+							</button>
+						</a></li> -->
+						
+                        <li><a href="https://x.com/RealMaruInu?t=Y9bwonJt2CbpPql8mDU08g&s=09" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5859 21.375L14.0885 10.4471L14.1013 10.4574L20.8613 2.625H18.6023L13.0954 9L8.72227 2.625H2.79766L9.79723 12.8276L9.79638 12.8267L2.41406 21.375H4.67309L10.7955 14.2824L15.6613 21.375H21.5859ZM7.82719 4.32954L18.3466 19.6705H16.5564L6.02852 4.32954H7.82719Z" fill="#0E0E0D"/>
+                            </svg>
+                        </a></li>
+                       
+                        <li><a href="https://t.me/maruinu" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_254_427)">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7767 4.42997C20.0238 4.32596 20.2943 4.29008 20.5599 4.32608C20.8256 4.36208 21.0768 4.46863 21.2873 4.63465C21.4979 4.80067 21.6601 5.02008 21.757 5.27005C21.854 5.52002 21.8822 5.79141 21.8387 6.05597L19.5707 19.813C19.3507 21.14 17.8947 21.901 16.6777 21.24C15.6597 20.687 14.1477 19.835 12.7877 18.946C12.1077 18.501 10.0247 17.076 10.2807 16.062C10.5007 15.195 14.0007 11.937 16.0007 9.99997C16.7857 9.23897 16.4277 8.79997 15.5007 9.49997C13.1987 11.238 9.50265 13.881 8.28065 14.625C7.20265 15.281 6.64065 15.393 5.96865 15.281C4.74265 15.077 3.60565 14.761 2.67765 14.376C1.42365 13.856 1.48465 12.132 2.67665 11.63L19.7767 4.42997Z" fill="#0E0E0D"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_254_427">
+                                    <rect width="24" height="24" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+						<li >
+							
+					</li>
+                      </ul>
+                </div>
+            </div>
+    </nav>
+</header>
+
+<section class="banner-area"  id="banner">
+    <figure class="hero-top-left-img">
+        <img src="Alldata/img/hero-top-left-img.png" alt="">
+    </figure>
+    <figure class="hero-top-right-img">
+        <img src="Alldata/img/hero-top-right-img.png" alt="">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-6 order-2 order-lg-1">
+                <div class="banner-content text-center text-lg-start">
+                    <h1   >Maru the most popular Shiba Inu</h1>
+                    <p  >The crypto's people, Maru Inu, an adorable Shiba Inu, seeks to change the focus of meme coins by bringing fun and adding value to the crypto ecosystem.</p>
+                    <!-- <a href="#" class="boxed-btn"  data-aos-duration="1500" data-aos-offset="0">
+                        <img src="Alldata/img/buy-now-btn-img.png" alt="">
+                        BUY NOW
+                    </a> -->
+                    <div class="copytoclipboard"  >
+                        <p>CA: <input type="text" id="textToCopy" value="0xe96603a02fc076b7e3c75AB737ed58C9c72070ce" readonly></p>
+                        <button onclick="handleCopyToClipboard()">
+                            <span>
+                                <img class="copy" src="Alldata/img/copyIcon.svg" alt="">
+                                <img class="checked" src="Alldata/img/checked.svg" alt="" style="display: none;">
+                            </span>
+                        </button>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 order-1 order-lg-2">
+                <div class="banner-right text-center">
+                    <div class="presale-end"  >
+                        <h4>Next stage</h4>
+                        <p class="maruInu">1 MARU=$0.00004</p>
+                        <div id="countdown">
+                            <div class="single-item">
+                                <span id="days"></span>
+                                <h5>Day</h5>
+                            </div>
+                            <div class="single-item">
+                                <span id="hours"></span>
+                                <h5>Hours</h5>
+                            </div>
+                            <div class="single-item">
+                                <span id="minutes"></span>
+                                <h5>Mins</h5>
+                            </div>
+                            <div class="single-item">
+                                <span id="seconds"></span>
+                                <h5>Sec</h5>
+                            </div>
+                          </div>
+                          <!-- <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                              <div class="progress-bar"  style="width: 100%">
+
+							</div>
+                          </div> -->
+						  <div class="section2">
+							<div class="section2__progressBarContainer mt-3"
+								style="margin: auto;">
+								<div class="section2__progressBar">
+									<div class="section2__progressBarRect" id="progressBarRect">
+										<!-- <span class="section2__progressBarCircle"></span> -->
+									</div>
+								</div>
+								<span
+									class="section2__progressBarPoint section2__progressBarPoint--start">
+									</span>
+								<span
+									class="section2__progressBarPoint section2__progressBarPoint--end">
+									</span>
+							</div>
+							
+						</div>
+                          <div class="d-flex justify-content-between align-items-center fresel-footer">
+                            <!-- <p>Buy now before price rise!</p> -->
+							<p class="mt-0" style="text-align: end; font-weight: 700; text-transform: uppercase; font-size: 12px;">
+													USDT Raised	$<span id="progress"></span>
+														/ $660,000
+													</p>
+                            <p>next price increase: <b>0.00005</b></p>
+                          </div>
+                    </div>
+                    <div class="connect-box"   >
+                        <div class="tokenSold d-flex align-items-center justify-content-between">
+                            <h4>Tokens Sold</h4>
+                            <img src="Alldata/img/tokenLogo.svg" alt="">
+                            <p><span class=""
+								id="tokens-sold">
+								-</span> / <span class="d-block"><b>6,000,000,000</b></span></p>
+                        </div>
+
+                        <div class="token_tab_title">
+                            <button class="active selected" id="ETHbutton"> <img src="Alldata/img/Binance.svg" alt=""> BNB</button>
+                            <button id="USDTbutton" class=""> <img src="Alldata/img/tether.svg" alt=""> USDT</button>
+                        </div>
+                        <div class="amount-calculation-box d-flex align-items-center justify-content-between">
+                            <div class="amount-item">
+                                <h6>Amount You Pay</h6>
+                                <div class="amount-box payBox">
+                                   <input id="bnbInput" type="number"  placeholder="0">
+								   <span id="change-logo" style="margin-top: -32px;">
+                                   <img   src="/new-img/binance.png" alt="">
+								</span>
+                                </div>
+                            </div>
+                            <div class="amount-item">
+                                <h6>Maru You Recieve</h6>
+                                <div class="amount-box payBox">
+                                    <input placeholder="0" readonly disabled id="novisInput">
+                                   <img id="button-logo-e" src="Alldata/img/tokenLogo.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+						<div class="text-center d-flex justify-content-center">
+                        <a  id="purchaseButton" class="boxed-btn  ">
+                            <img class="btn-bg" src="Alldata/img/btn-bg.png" alt="">
+                            Buy
+                        </a>
+                        <a  id="open-connect-modal" class="boxed-btn ">
+                            <img class="btn-bg" src="Alldata/img/btn-bg.png" alt="">
+                            Connect wallet
+                        </a>
+						<div class="d-flex ">
+                        <a id="approveButton" class="boxed-btn ">
+                            <img class="btn-bg" src="Alldata/img/btn-bg.png" alt="">
+                           Approve
+                        </a>
+                        <a  id="purchaseButtonUSDT" class="boxed-btn ">
+                            <img class="btn-bg" src="Alldata/img/btn-bg.png" alt="">
+                           Buy
+                        </a>
+					</div>
+					</div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <p class="text-start purchaseTxt">Your Purchased Token = <span class="d-block"><b>(Connect Wallet)</b></span></p>
+                            <span class="d-flex align-items-center purchased-logo gap-3">
+                                <img src="Alldata/img/Coin-Logo.png" alt="">
+                                <img src="Alldata/img/dimond.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                     <figure class="hero-right-bottom-shap">
+                            <img src="Alldata/img/hero-right-bottom-shap.png" alt="">
+                        </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <figure class="hero-bottom-right-img" >
+        <img src="Alldata/img/hero-bottom-right-img.png" alt="">
+    </figure>
+
+    <figure class="hero-bottom-shap-img">
+        <img src="Alldata/img/hero-bottom-shap.png" alt="">
+    </figure>
+
+    <figure class="hero-bottom-grash" >
+        <img src="Alldata/img/hero-bottom-grash.png" alt="">
+    </figure>
+</section>
+
+<div class="slider1 " style="margin-top: 0px; ">
+       
+    <div class="slide-track1">
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg1.png" class="img-fluid slideimg" style="  " alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg2.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg3.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg4.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg5.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg1.png" class="img-fluid slideimg" alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg2.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg3.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg4.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg5.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg1.png" class="img-fluid slideimg"  alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg2.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg3.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg4.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg5.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg1.png" class="img-fluid slideimg"  alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg2.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg3.png" class="img-fluid slideimg"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg4.png" class="img-fluid slideimg" alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/brandLogoImg5.png" class="img-fluid slideimg"  alt="">
+        </div>
+        
+    </div>
+</div>
+
+<!-- <section class="marque-area one">
+    <div direction="left" id="marquee">
+        <img src="Alldata/img/brandLogoImg1.png" alt="">
+        <img src="Alldata/img/brandLogoImg2.png" alt="">
+        <img src="Alldata/img/brandLogoImg3.png" alt="">
+        <img src="Alldata/img/brandLogoImg4.png" alt="">
+        <img src="Alldata/img/brandLogoImg5.png" alt="">
+        <img src="Alldata/img/brandLogoImg1.png" alt="">
+        <img src="Alldata/img/brandLogoImg2.png" alt="">
+        <img src="Alldata/img/brandLogoImg3.png" alt="">
+        <img src="Alldata/img/brandLogoImg4.png" alt="">
+        <img src="Alldata/img/brandLogoImg5.png" alt="">
+        <img src="Alldata/img/brandLogoImg1.png" alt="">
+        <img src="Alldata/img/brandLogoImg2.png" alt="">
+        <img src="Alldata/img/brandLogoImg3.png" alt="">
+        <img src="Alldata/img/brandLogoImg4.png" alt="">
+        <img src="Alldata/img/brandLogoImg5.png" alt="">
+        <img src="Alldata/img/brandLogoImg1.png" alt="">
+        <img src="Alldata/img/brandLogoImg2.png" alt="">
+        <img src="Alldata/img/brandLogoImg3.png" alt="">
+        <img src="Alldata/img/brandLogoImg4.png" alt="">
+        <img src="Alldata/img/brandLogoImg5.png" alt="">
+        <img src="Alldata/img/brandLogoImg1.png" alt="">
+        <img src="Alldata/img/brandLogoImg2.png" alt="">
+        <img src="Alldata/img/brandLogoImg3.png" alt="">
+        <img src="Alldata/img/brandLogoImg4.png" alt="">
+        <img src="Alldata/img/brandLogoImg5.png" alt="">
+    </div>
+</section> -->
+
+<section class="howtobuy-area" id="howtobuy">
+    <figure class="howtobuy-top-left-shap">
+        <img src="Alldata/img/howtobuy-top-left-shap.png" alt="">
+    </figure>
+    <figure class="howtobuy-top-right-shap">
+        <img src="Alldata/img/howtobuy-top-right-shap.png" alt="">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center" >
+                    <h2>How to buy</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4 mb-xl-0">
+                <div class="howtobuy-single-item"  >
+                    <figure class="howtobuy-item-bg">
+                        <img src="Alldata/img/howtobuy-single-item-bg-1.png" alt="">
+                    </figure>
+                    <h5>Connect wallet</h5>
+                    <p>Click on "Connect Wallet", open your decentralized wallet, and confirm. You must be on the Binance Smart Chain network.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4 mb-xl-0">
+                <div class="howtobuy-single-item"  >
+                    <figure class="howtobuy-item-bg">
+                        <img src="Alldata/img/howtobuy-single-item-bg-2.png" alt="">
+                    </figure>
+                    <h5>Enter amount </h5>
+                    <p>Enter the amount you wish to purchase, either in USDT or BNB. Remember to have extra BNB for network fees.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4 mb-xl-0">
+                <div class="howtobuy-single-item"  >
+                    <figure class="howtobuy-item-bg">
+                        <img src="Alldata/img/howtobuy-single-item-bg-3.png" alt="">
+                    </figure>
+                    <h5>Confirm</h5>
+                    <p>You must confirm the transaction in your wallet, and you're all set! You'll need to wait until the presale ends to claim the tokens.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <figure class="howtobuy-bottom-bg">
+        <img src="Alldata/img/how-to-buy-bottom-bg.png" alt="">
+    </figure>
+</section>
+
+<section class="tokenomics-area" id="tokenomic">
+    <figure class="token-top-left-img" data-aos="slide-right" >
+        <img src="Alldata/img/token-top-left-img.png" alt="">
+    </figure>
+    <figure class="token-top-right-img">
+        <img src="Alldata/img/token-top-right-img.png" alt="">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="tokenomics-content-area">
+                    <div class="token-content-inner">
+                        
+                   <div class="top-content text-center">
+                    <h2  >Tokenomics</h2>
+                    <h3  >Total Supply: <span class="d-block">10.000.000.000</span></h3>
+                   </div>
+                    <div class="token-item-wrapper d-flex wrap align-items-center justify-content-center">
+                        <div class="token-single-item d-flex align-items-center gap-3"  >
+                            <img src="Alldata/img/token-item-count-1.png" alt="">
+                            <h5>Presale 60%</h5>
+                        </div>
+                        <div class="token-single-item d-flex align-items-center gap-3"  >
+                            <img src="Alldata/img/token-item-count-3.png" alt="">
+                            <h5>Marketing 15%</h5>
+                        </div>
+                        <div class="token-single-item d-flex align-items-center gap-3" >
+                            <img src="Alldata/img/token-item-count-2.png" alt="">
+                            <h5>Cex/Dex Liquidity 15%</h5>
+                        </div>
+                        <div class="token-single-item d-flex align-items-center gap-3"  >
+                            <img src="Alldata/img/token-item-count-4.png" alt="">
+                            <h5>Airdrop 10%</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+                    <figure class="token-content-bg">
+                        <img src="Alldata/img/token-content-bg.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <figure class="token-bottom-left-img"  >
+        <img src="Alldata/img/token-bottom-left-img.png" alt="">
+    </figure>
+    <figure class="token-bottom-right-img dog" >
+        <img src="Alldata/img/token-bottom-dog.png" alt="">
+    </figure>
+    <figure class="token-bottom-right-img">
+        <img src="Alldata/img/token-bottom-right-img.png" alt="">
+    </figure>
+    <figure class="tokenomics-bg">
+        <img src="Alldata/img/tokenomics-bg.png" alt="">
+    </figure>
+</section> 
+
+<section class="roadmap-area" id="roadmap">
+    <figure class="roadmapTop-Shap">
+        <img src="Alldata/img/roadmap-top-shap.png" alt="">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2  >ROADMAP</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="roadmap-wrapper">
+                <figure class="roadmap-middle-img">
+                    <img src="Alldata/img/roadmap-middle-img.png" alt="">
+                </figure>
+                <div class="roadmap-content-inner">
+                    <div class="single-item">
+                        <img src="Alldata/img/roadmap-single-item-img1.png" alt="">
+                        <h4>Q<span>1 2024</span> </h4>
+                        <p>Website <br />
+                            Social media <br />
+                            Presale start</p>
+                    </div>
+                    <div class="single-item two">
+                        <img src="Alldata/img/roadmap-single-item-img2.png" alt="">
+                        <h4>Q<span>2</span></h4>
+                        <p>Dex Launch<br />
+                            Coinmarketcap listing <br />
+                            Coingecko listing<br/>
+                            Marketing</p>
+                    </div>
+                    <div class="single-item three">
+                        <img src="Alldata/img/roadmap-single-item-img3.png" alt="">
+                        <h4>Q<span>3</span></h4>
+                        <p>Memes and more memes<br />
+                            Fun products<br />
+                            Important partnerships</p>
+                    </div>
+                    <div class="single-item four">
+                        <img src="Alldata/img/roadmap-single-item-img4.png" alt="">
+                        <h4>Q<span>4</span></h4>
+                        <p>Cex listing <br />
+                            for keep building</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <figure class="roadmap-left-img">
+        <img src="Alldata/img/roadmap-left-img.png" alt="">
+    </figure>
+    <figure class="roadmap-right-img">
+        <img src="Alldata/img/roadmap-right-img.png" alt="">
+    </figure>
+    <figure class="roadmap-bottom-img">
+        <img src="Alldata/img/roadmap-bottom-img.png" alt="">
+    </figure>
+</section>
+
+
+<section class="faqArea" id="faq">
+    <figure class="faq-top-right-img">
+        <img src="Alldata/img/faq-top-right-img.png" alt="">
+    </figure>
+    <div class="container">
+        <div class="row faq-wrapper">
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item"  >
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is Maru Inu?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Maru, the next most popular Shiba Inu, is a memecoin that aims to drive fun and become one of the largest cryptocurrencies in the market.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item"  >
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Why should I buy Maru Inu?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>With its growing popularity, Maru Inu could become the next Shiba Inu.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item"  >
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Is Maru Inu safe?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Our smart contract is secure and audited by top firms. Additionally, the website employs excellent security measures to prevent any inconvenience.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item" >
+                              <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How does the Claim work?
+                                </button>
+                              </h2>
+                              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>At the end of the Maru Inu pre-sale, you will be able to claim 30% of the tokens. 20% will be released every 7 days for 2 weeks. Once you have 70% of the tokens, 10% will be released every 7 days until reaching 100% of the tokens released in a period of 35 days.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <figure class="faq-bottom-left-img">
+        <img src="Alldata/img/faq-bottom-left-img.png" alt="">
+    </figure>
+    <figure class="faq-bottom-img">
+        <img src="Alldata/img/faq-bottom-img.png" alt="">
+    </figure>
+</section>
+
+
+
+
+
+<div class="slider1 " style="margin-top: 0px; ">
+       
+    <div class="slide-track1">
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone" style="  " alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone" alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+            
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone" alt="">
+        </div>
+        <div class="slide1 mx-5">
+            <img src="Alldata/img/marqueImg2.png" class="img-fluid imgsizeone"  alt="">
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- <section class="marque-area">
+    <div direction="right" id="marqueeTwo">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+        <img src="Alldata/img/marqueImg2.png" alt="">
+    </div>
+</section> -->
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 text-center">
+                <a href="#" class="footer-logo">
+                    <img src="Alldata/img/footer-logo.png" alt="">
+                </a>
+                <ul class="social-links">
+                    <li><a href="https://x.com/RealMaruInu?t=Y9bwonJt2CbpPql8mDU08g&s=09" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5859 21.375L14.0885 10.4471L14.1013 10.4574L20.8613 2.625H18.6023L13.0954 9L8.72227 2.625H2.79766L9.79723 12.8276L9.79638 12.8267L2.41406 21.375H4.67309L10.7955 14.2824L15.6613 21.375H21.5859ZM7.82719 4.32954L18.3466 19.6705H16.5564L6.02852 4.32954H7.82719Z" fill="#0E0E0D"/>
+                        </svg>
+                    </a></li>
+                    <li><a href="https://t.me/maruinu"  target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_254_427)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7767 4.42997C20.0238 4.32596 20.2943 4.29008 20.5599 4.32608C20.8256 4.36208 21.0768 4.46863 21.2873 4.63465C21.4979 4.80067 21.6601 5.02008 21.757 5.27005C21.854 5.52002 21.8822 5.79141 21.8387 6.05597L19.5707 19.813C19.3507 21.14 17.8947 21.901 16.6777 21.24C15.6597 20.687 14.1477 19.835 12.7877 18.946C12.1077 18.501 10.0247 17.076 10.2807 16.062C10.5007 15.195 14.0007 11.937 16.0007 9.99997C16.7857 9.23897 16.4277 8.79997 15.5007 9.49997C13.1987 11.238 9.50265 13.881 8.28065 14.625C7.20265 15.281 6.64065 15.393 5.96865 15.281C4.74265 15.077 3.60565 14.761 2.67765 14.376C1.42365 13.856 1.48465 12.132 2.67665 11.63L19.7767 4.42997Z" fill="#0E0E0D"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_254_427">
+                                <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a></li>
+                </ul>
+                <div class="disclimar mt-4">
+                    <h4>Disclaimer:</h4>                                            
+                    <p>Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may go down as well as up. Profits may be subject to capital gains or other taxes applicable in your jurisdiction.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <figure class="footer-bg">
+        <img src="Alldata/img/footer-bg.png" alt="">
+    </figure>
+    <figure class="footer-bottom-img">
+        <img src="Alldata/img/footer-bottom-img.png" alt="">
+    </figure>
+</footer>
+  <!-- jQuery JS -->
+  <script type="module" src="Alldata/js/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script type="module"  src="Alldata/js/bootstrap.min.js"></script>
+
+  <!-- Popper JS -->
+  <!-- <script type="module" src="Alldata/js/popper.min.js"></script> -->
+
+  <!-- marquee JS -->
+  <!-- <script type="module"  src="Alldata/js/jquery.marquee.min.js"></script> -->
+
+  <!-- aos JS -->
+  <!-- <script type="module" src="Alldata/js/aos.js"></script> -->
+
+  <!-- Main Script JS -->
+ 
+  <!-- <script src="./Book.js"></script> -->
+  <script  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- <script>
+    (function() {
+      'use strict';
+     
+      jQuery(document).ready(function() {        
+          // Your jQuery code here
+      });
+      
+      AOS.init();
+  
+      document.addEventListener("DOMContentLoaded", function(){
+          window.addEventListener('scroll', function() {
+              if (window.scrollY > 250) {
+                  document.getElementById('navbar_top').classList.add('fixed-top');
+              } else {
+                  document.getElementById('navbar_top').classList.remove('fixed-top');
+                  // remove padding top from body
+                  document.body.style.paddingTop = '0';
+              } 
+          });
+      }); })
+  </script> -->
+  
+  
+   
+
+   
+
+ 
+
+<!-- <script>
+    var marqueePosition = localStorage.getItem('marqueePosition') || 10;
+  $('#marquee').marquee({
+    duration: 30000,
+    gap: 40,
+    delayBeforeStart: 0,
+    direction: 'left', 
+    duplicated: true,
+    startVisible: true, 
+    startVisible: marqueePosition, 
+  });
+  $('#marquee').on('marquee.finish', function(){
+    localStorage.setItem('marqueePosition', $('#marquee').data('currentPosition'));
+  });
+
+  $('#marqueeTwo').marquee({
+    duration: 30000,
+    gap: 40,
+    delayBeforeStart: 0,
+    direction: 'left', 
+    duplicated: true,
+    startVisible: true, 
+    startVisible: marqueePosition, 
+  });
+  $('#marqueeTwo').on('marquee.finish', function(){
+    localStorage.setItem('marqueePosition', $('#marqueeTwo').data('currentPosition'));
+  });
+
+
+</script> -->
+  
+
+
+
+
+
+
+<script>
+    function handleCopyToClipboard() {
+  var textToCopy = document.getElementById('textToCopy').value;
+  navigator.clipboard.writeText(textToCopy)
+      .then(function() {
+          // Change the display of the copy and checked icons
+          var copyIcon = document.querySelector('.copy');
+          var checkedIcon = document.querySelector('.checked');
+          copyIcon.style.display = 'none';
+          checkedIcon.style.display = 'inline';
+      })
+      .catch(function(err) {
+          console.error('Failed to copy to clipboard: ', err);
+      });
+}    
+    
+</script>
+
+
+
+<script>
+    // Get all the buttons inside the token_tab_title div
+const buttons = document.querySelectorAll('.token_tab_title button');
+
+// Get the payBox element
+const payBox = document.querySelector('.payBox');
+
+// Loop through each button
+buttons.forEach(button => {
+    // Add click event listener to each button
+    button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        buttons.forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to the clicked button
+        this.classList.add('active');
+
+        // Get the image source of the clicked button
+        const imgSrc = this.querySelector('img').src;
+        
+        // Replace the image inside payBox with the clicked button's image
+        payBox.querySelector('img').src = imgSrc;
+    });
+});
+
+
+    
+    </script>
+
+
+<script>
+    // Get references to the buttons
+    var ethButton = document.getElementById("ETHbutton");
+    var usdtButton = document.getElementById("USDTbutton");
+
+    // Add click event listeners to the buttons
+    ethButton.addEventListener("click", function () {
+        toggleSelected(ethButton, usdtButton);
+    });
+
+    usdtButton.addEventListener("click", function () {
+        toggleSelected(usdtButton, ethButton);
+    });
+
+    // Function to toggle the 'selected' class
+    function toggleSelected(selectedButton, otherButton) {
+        selectedButton.classList.add("selected");
+        otherButton.classList.remove("selected");
+    }
+</script>
+
+<script>
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+    }
+
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
+  
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="/timer.js"></script>
+
+
+</body>
+</html>
